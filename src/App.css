@@ -1,0 +1,93 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+.borderRed {
+  border: 1px red;
+}
+
+.borderShadow {
+  box-shadow: 4px 4px 4px grey;
+  border-radius: 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.padding-12 {
+  padding: 12px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.error-input {
+  border-color: red;
+}
+
+.error-message {
+  margin-left: 10px;
+  color: red;
+}
+
+.inactive-header{
+  color:#D2042D
+}
+
+.active-header{
+  color: white;
+}
+
+.active-div{
+  background-color: #D2042D;
+}
+
+.inactive-div{
+  background-color: white;
+}
+
+.div-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .div-class{
+    height: 40vh;
+  }
+  
+}
+
+.gap20{
+  gap: 20px;
+}
